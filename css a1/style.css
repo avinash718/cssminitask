@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {
+  .container {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #bd9595;
+  }
+  .nav {
+    display: none;
+  }
+  .content {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .container {
+    background-color: #685d5d;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+  .nav {
+    display: block;
+  }
+
+  .content {
+    font-size: 18px;
+  }
+}

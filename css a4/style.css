@@ -1,0 +1,53 @@
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #bd9595;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .container {
+    background-color: #f37c7c;
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 20px;
+  }
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  padding: 100px;
+}
+.sidebar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f37c7c;
+    padding: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .gallery {
+    grid-template-columns: auto;
+    
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .gallery {
+    grid-template-columns: auto auto;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .gallery {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

@@ -1,0 +1,38 @@
+
+
+/* Event Card */
+.eventCard {
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Navigation Menu */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin: 10px;
+    padding: 5px;
+}
+
+/* Link Styling */
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}

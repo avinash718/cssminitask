@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #bd9595;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .container {
+    background-color: #4d3d3d;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+.card {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+div {
+  margin-bottom: 10px;
+
+}
