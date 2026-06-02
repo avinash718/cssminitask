@@ -1,0 +1,17 @@
+
+
+
+.bounce-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+    animation: bounce 2s infinite;
+}   
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
