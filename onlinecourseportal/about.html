@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Our Institute - EduTech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <i class="bi bi-mortarboard-fill me-2 fs-3 text-primary"></i>
+                <strong>EduTech</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <button class="btn btn-primary ms-lg-3" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container my-5">
+        <h1 class="text-center fw-bold mb-5">About Our Institute</h1>
+        <div class="row g-4 align-items-center mb-5">
+            <div class="col-md-6">
+                <h3 class="fw-bold">Our History</h3>
+                <p>Founded in 2018, EduTech Training Institute started with a simple vision: making standard technical training accessible to everyone. Over the last decade, we have scaled to coach thousands of professionals and placed students into Tier-1 global tech infrastructures.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="p-4 bg-light border-start border-primary border-4 rounded shadow-sm mb-3">
+                    <h5 class="fw-bold text-primary"><i class="bi bi-eye-fill me-2"></i>Our Vision</h5>
+                    <p class="mb-0">To be a globally recognized baseline framework for continuous learning and technology skill acceleration.</p>
+                </div>
+                <div class="p-4 bg-light border-start border-success border-4 rounded shadow-sm">
+                    <h5 class="fw-bold text-success"><i class="bi bi-flag-fill me-2"></i>Our Mission</h5>
+                    <p class="mb-0">Deploy high-engagement classrooms and practical pipelines that arm modern professionals with production-grade execution skills.</p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="text-center fw-bold mt-5 mb-4">Meet Our Elite Faculty</h3>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card text-center border-0 shadow-sm h-100">
+                    <img src="assests/l1.jpg" class="card-img-top rounded-circle mx-auto mt-4" style="width: 140px; height: 140px; object-fit: cover;" alt="Faculty">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold mb-1">A</h5>
+                        <p class="text-primary small mb-3">Head of AI & ML</p>
+                        <p class="card-text text-muted">Ex-Senior Research Scientist with over 12 years of core neural network design experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center border-0 shadow-sm h-100">
+                    <img src="assests/l2.jpg" class="card-img-top rounded-circle mx-auto mt-4" style="width: 140px; height: 140px; object-fit: cover;" alt="Faculty">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold mb-1">B</h5>
+                        <p class="text-primary small mb-3">Lead Architecture Instructor</p>
+                        <p class="card-text text-muted">A veteran enterprise software architect passionate about compilers and core cloud runtime microservices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center border-0 shadow-sm h-100">
+                    <img src="assests/l3.jpg" class="card-img-top rounded-circle mx-auto mt-4" style="width: 140px; height: 140px; object-fit: cover;" alt="Faculty">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold mb-1">C</h5>
+                        <p class="text-primary small mb-3">Web Ecosystem Lead</p>
+                        <p class="card-text text-muted">Open source evangelist and front-end infrastructure specialized developer focused on framework scaling.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold" id="loginModalLabel">Student Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="#" method="POST">
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-control" required placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" required placeholder="••••••••">
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
